@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 47,
+  "bbox_left": 1,
+  "bbox_right": 43,
   "bbox_top": 0,
-  "bbox_bottom": 85,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 48,
-  "height": 86,
+  "width": 46,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8dce51e4-f99d-41d6-8f2e-58dd7e342fa4","path":"sprites/spr_door_open/spr_door_open.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8dce51e4-f99d-41d6-8f2e-58dd7e342fa4","path":"sprites/spr_door_open/spr_door_open.yy",},"LayerId":{"name":"3f363ad2-6e67-4917-bf99-9b3dc821f1ab","path":"sprites/spr_door_open/spr_door_open.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_door_open","path":"sprites/spr_door_open/spr_door_open.yy",},"resourceVersion":"1.0","name":"8dce51e4-f99d-41d6-8f2e-58dd7e342fa4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"43320820-1572-48aa-a6d2-ee80e9ac2972","path":"sprites/spr_robot2/spr_robot2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"43320820-1572-48aa-a6d2-ee80e9ac2972","path":"sprites/spr_robot2/spr_robot2.yy",},"LayerId":{"name":"52cdc88c-a2a6-4b01-b182-0b0aa4f0037c","path":"sprites/spr_robot2/spr_robot2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_robot2","path":"sprites/spr_robot2/spr_robot2.yy",},"resourceVersion":"1.0","name":"43320820-1572-48aa-a6d2-ee80e9ac2972","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_door_open","path":"sprites/spr_door_open/spr_door_open.yy",},
+    "spriteId": {"name":"spr_robot2","path":"sprites/spr_robot2/spr_robot2.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2f48caed-0b72-410d-8c9a-7b7504bba84a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8dce51e4-f99d-41d6-8f2e-58dd7e342fa4","path":"sprites/spr_door_open/spr_door_open.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"25f7d2b0-cccf-405a-b780-e878355877ff","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"43320820-1572-48aa-a6d2-ee80e9ac2972","path":"sprites/spr_robot2/spr_robot2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_door_open","path":"sprites/spr_door_open/spr_door_open.yy",},
+    "parent": {"name":"spr_robot2","path":"sprites/spr_robot2/spr_robot2.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_door_open",
+    "name": "spr_robot2",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3f363ad2-6e67-4917-bf99-9b3dc821f1ab","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"52cdc88c-a2a6-4b01-b182-0b0aa4f0037c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_door_open",
+  "name": "spr_robot2",
   "tags": [],
   "resourceType": "GMSprite",
 }
