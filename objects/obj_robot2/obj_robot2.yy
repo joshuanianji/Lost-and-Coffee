@@ -3,7 +3,7 @@
     "name": "spr_robot2",
     "path": "sprites/spr_robot2/spr_robot2.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player_sideview","path":"objects/obj_player_sideview/obj_player_sideview.yy",},"parent":{"name":"obj_robot2","path":"objects/obj_robot2/obj_robot2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
