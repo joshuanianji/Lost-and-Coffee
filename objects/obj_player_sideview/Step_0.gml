@@ -53,12 +53,16 @@ if place_meeting(x+hspd, y, obj_wall) {
 x += hspd;
 
 // move vertically & vertical collisions
-if place_meeting(x, y+vspd, obj_wall) {
-	// sign returns 1 or -1, depending on the sign of the value
-	// this moves us up RIGHT up to the object
-	while (!place_meeting(x, y+sign(vspd), obj_wall)) {
-		y += sign(vspd);
+// only check for collisions when you move down
+var vcollide;
+vcollide = instance_place(x, y+vspd, obj_wall);
+if (vcollide != noone){
+	if (vcollide).type == 1 {
+		while (!place_meeting(x, y+sign(vspd), obj_wall)) {
+			y += sign(vspd);
+		}
+		vspd = 0;
 	}
-	vspd = 0;
 }
+
 y += vspd;
