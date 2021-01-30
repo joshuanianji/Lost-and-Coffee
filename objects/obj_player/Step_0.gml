@@ -26,3 +26,4 @@ if box == 1{
   box = instance_create_layer(x, y, "Text", obj_textbox) 
   alarm[0] = 120
 }
+
