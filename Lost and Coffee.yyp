@@ -5,6 +5,7 @@
     {"id":{"name":"level_3","path":"rooms/level_3/level_3.yy",},"order":4,},
     {"id":{"name":"level_select","path":"rooms/level_select/level_select.yy",},"order":1,},
     {"id":{"name":"level_2","path":"rooms/level_2/level_2.yy",},"order":3,},
+    {"id":{"name":"spr_coffee_cup","path":"sprites/spr_coffee_cup/spr_coffee_cup.yy",},"order":0,},
     {"id":{"name":"level_1","path":"rooms/level_1/level_1.yy",},"order":2,},
     {"id":{"name":"tutorial_room","path":"rooms/tutorial_room/tutorial_room.yy",},"order":0,},
   ],
