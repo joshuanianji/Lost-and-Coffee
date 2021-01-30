@@ -4,7 +4,7 @@
 
 var inst;
 // x and y point to the top left point
-inst = collision_rectangle(x, y, x+48*image_xscale, y+86*image_yscale, obj_player, true, true);
+inst = collision_rectangle(x, y, x+48*image_xscale, y+86*image_yscale, obj_player_sideview, true, true);
 if inst != noone {
 	sprite_index = spr_door_open;
 	show_debug_message("collision pog");
