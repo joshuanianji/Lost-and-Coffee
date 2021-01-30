@@ -1,27 +1,28 @@
 /// @description Deals with movements
 // You can write your code in this editor
-if keyboard_check(vk_left)
+if (keyboard_check(vk_left) && place_free(x - collisionSpeed, y))
 {
-   x -= 3;
+   x -= walkSpeed;
 }
 
-if keyboard_check(vk_right)
+if (keyboard_check(vk_right) && place_free(x + collisionSpeed, y))
 {
-   x += 3;
+   x += walkSpeed;
 }
 
-if keyboard_check(vk_up)
+if (keyboard_check(vk_up) && !(room == level_select) && place_free(x, y - collisionSpeed))
 {
-   y -= 3;
+   y -= walkSpeed;
 }
 
-if keyboard_check(vk_down)
+if (keyboard_check(vk_down) && !(room == level_select) && place_free(x, y + collisionSpeed))
 {
-   y += 3;
+   y += walkSpeed;
 }
 
 
 
 if box == 1{
-box = instance_create_layer(x, y, "Text", obj_textbox) 
-alarm[0] = 120}
+  box = instance_create_layer(x, y, "Text", obj_textbox) 
+  alarm[0] = 120
+}
