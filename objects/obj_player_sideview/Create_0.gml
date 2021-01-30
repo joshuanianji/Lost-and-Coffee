@@ -7,3 +7,4 @@ spd = 8;
 jspd = 25; // jump speed
 hspd = 0;
 vspd = 0;
+grounded = true;
