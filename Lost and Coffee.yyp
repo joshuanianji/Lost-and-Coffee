@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"level_3","path":"rooms/level_3/level_3.yy",},"order":4,},
     {"id":{"name":"level_select","path":"rooms/level_select/level_select.yy",},"order":1,},
     {"id":{"name":"level_2","path":"rooms/level_2/level_2.yy",},"order":3,},
