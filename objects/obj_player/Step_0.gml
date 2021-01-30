@@ -10,7 +10,6 @@ if (keyboard_check(vk_right) && place_free(x + collisionSpeed, y))
    x += walkSpeed;
 }
 
-// should add gravity to the level select room but eh
 if (keyboard_check(vk_up) && !(room == level_select) && place_free(x, y - collisionSpeed))
 {
    y -= walkSpeed;
