@@ -1,10 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"spr_idea","path":"sprites/spr_idea/spr_idea.yy",},"order":0,},
+    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
