@@ -19,10 +19,3 @@ if (keyboard_check(vk_down) && !(room == level_select) && place_free(x, y + coll
 {
    y += walkSpeed;
 }
-
-
-
-if box == 1{
-  box = instance_create_layer(x, y, "Text", obj_textbox) 
-  alarm[0] = 120
-}
