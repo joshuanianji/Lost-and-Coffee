@@ -24,10 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"66bf66ed-e4e3-443c-b4e3-9f62f3ce2ba0","path":"sprites/spr_door_closed/spr_door_closed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"66bf66ed-e4e3-443c-b4e3-9f62f3ce2ba0","path":"sprites/spr_door_closed/spr_door_closed.yy",},"LayerId":{"name":"423f67a3-5c5f-4b68-8ea7-f1bc44c21ef6","path":"sprites/spr_door_closed/spr_door_closed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"66bf66ed-e4e3-443c-b4e3-9f62f3ce2ba0","path":"sprites/spr_door_closed/spr_door_closed.yy",},"LayerId":{"name":"7f810ec9-37e6-475a-8d33-45277f38812a","path":"sprites/spr_door_closed/spr_door_closed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_door_closed","path":"sprites/spr_door_closed/spr_door_closed.yy",},"resourceVersion":"1.0","name":"66bf66ed-e4e3-443c-b4e3-9f62f3ce2ba0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6f4e4469-43c4-43e4-94a9-58b41042c25d","path":"sprites/spr_door_closed/spr_door_closed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6f4e4469-43c4-43e4-94a9-58b41042c25d","path":"sprites/spr_door_closed/spr_door_closed.yy",},"LayerId":{"name":"3c917c80-44ec-426d-ac25-c3c2e9c5c063","path":"sprites/spr_door_closed/spr_door_closed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_door_closed","path":"sprites/spr_door_closed/spr_door_closed.yy",},"resourceVersion":"1.0","name":"6f4e4469-43c4-43e4-94a9-58b41042c25d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_door_closed","path":"sprites/spr_door_closed/spr_door_closed.yy",},
@@ -42,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4a354441-4343-4e07-94e3-2d5f7710db68","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"66bf66ed-e4e3-443c-b4e3-9f62f3ce2ba0","path":"sprites/spr_door_closed/spr_door_closed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"af2315a4-66d9-4eef-bf42-39d1ea1dcb1d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f4e4469-43c4-43e4-94a9-58b41042c25d","path":"sprites/spr_door_closed/spr_door_closed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -66,8 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"door knob","resourceVersion":"1.0","name":"423f67a3-5c5f-4b68-8ea7-f1bc44c21ef6","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7f810ec9-37e6-475a-8d33-45277f38812a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3c917c80-44ec-426d-ac25-c3c2e9c5c063","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
