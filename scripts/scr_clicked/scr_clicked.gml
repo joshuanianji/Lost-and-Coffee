@@ -3,12 +3,10 @@
 
 function clicked(box, click){
 	if click = 1{
-	box = instance_create_layer(x, y, "Text", obj_textbox) 
-	show_debug_message(box)
+	box = instance_create_layer(353 - sprite_get_width(spr_textbox)/2, 309, "Text", obj_textbox) 
 	}
 	else{ 
-		instance_destroy(box)
+		instance_destroy(obj_textbox)
 		box = 0
-		show_debug_message(box)
 	}
 }

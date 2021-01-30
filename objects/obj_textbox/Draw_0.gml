@@ -13,5 +13,6 @@ draw_sprite(spr_textbox, 0, x, y)
 
 // draw text
 draw_set_font(story_font)
+draw_set_alpha(0.8)
 
 draw_text_ext(x, y, text, stringHeight, boxWidth)
