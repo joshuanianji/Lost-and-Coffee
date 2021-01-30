@@ -15,6 +15,7 @@
     {"id":{"name":"spr_robot2","path":"sprites/spr_robot2/spr_robot2.yy",},"order":18,},
     {"id":{"name":"spr_candy","path":"sprites/spr_candy/spr_candy.yy",},"order":13,},
     {"id":{"name":"background","path":"tilesets/background/background.yy",},"order":0,},
+    {"id":{"name":"obj_player_sideview","path":"objects/obj_player_sideview/obj_player_sideview.yy",},"order":3,},
     {"id":{"name":"obj_redcow","path":"objects/obj_redcow/obj_redcow.yy",},"order":6,},
     {"id":{"name":"obj_chocolate","path":"objects/obj_chocolate/obj_chocolate.yy",},"order":4,},
     {"id":{"name":"level_select","path":"rooms/level_select/level_select.yy",},"order":1,},
