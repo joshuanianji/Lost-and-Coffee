@@ -19,6 +19,7 @@ else
 {
 	show_debug_message("not tutorial room")
 	global.text = "";
+	global.player_text_count = 9
 }
 color = c_white
 // the storage can know whether to say you died or the welcome msg
