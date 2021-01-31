@@ -43,17 +43,21 @@ if spacekey {
 	if over_bathroom {
 		show_debug_message("go to bathroom");
 		room_goto(bathroom_lv1);
+		global.text = "";
 	} 
 	if over_kitchen {
 		show_debug_message("go to kitchen");
 		room_goto(kitchen_lv1);
+		global.text = "";
 	} 
 	if over_storage {
 		show_debug_message("go to storage");
 		room_goto(storage_lv1);
+		global.text = "";
 	}
 	if over_tutorial {
 		show_debug_message("go to tutorial");
 		room_goto(tutorial_room);
+		global.text = "";
 	}
 }

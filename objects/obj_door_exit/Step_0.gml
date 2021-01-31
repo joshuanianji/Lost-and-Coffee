@@ -10,7 +10,6 @@ inst = collision_rectangle(x, y, x+48*image_xscale, y+86*image_yscale, obj_playe
 var hovering = x <= obj_player_sideview.x and obj_player_sideview.x <= (x + sprite_width) or x <= width and width <= (x + sprite_width);
 var spacekey = keyboard_check_pressed(vk_space)
 
-
 if inst != noone {
 	if play_sound_effect {
 		audio_play_sound(snd_door_close,0,0);
@@ -18,16 +17,14 @@ if inst != noone {
 	play_sound_effect = false;
 	sprite_index = spr_door_open;
 	
-
-	show_debug_message("hovering");
-	
-	draw_set_halign(fa_center);
-	draw_set_valign(fa_middle);
-	draw_set_color(c_white);
-	draw_text(room_width/2, room_height - sprite_get_height(spr_textbox),"Press space to exit back to the room select");
-
-
+	if (hovering) {
+		show_debug_message(global.text);
+		global.text = "exit";
+	}
 } else {
+	if global.text == "exit" {
+		global.text = "";
+	}
 	play_sound_effect = true;
 	sprite_index = spr_door_closed;
 }       
@@ -36,4 +33,5 @@ if inst != noone {
 if spacekey and hovering {
 	show_debug_message("exiting");
 	room_goto(level_select);
+	global.visited_storage = 0;
 }

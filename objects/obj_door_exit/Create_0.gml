@@ -3,4 +3,3 @@
 play_sound_effect = true;
 click = -1
 box = 0
-
