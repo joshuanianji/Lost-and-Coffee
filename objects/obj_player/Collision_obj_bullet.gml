@@ -8,7 +8,7 @@ local_health -= 25;
 show_debug_message(local_health);
 
 
-image_alpha = 0.5;
+color = c_red;
 alarm[0] = room_speed * 0.2;
 
 // destroy bullet
