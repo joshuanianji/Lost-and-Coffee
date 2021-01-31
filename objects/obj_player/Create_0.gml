@@ -4,7 +4,7 @@ click = -1
 box = 0
 
 walkSpeed = [0,0]
-collisionSpeed = walkSpeed + 2
+collisionSpeed = 5.5
 
 global.player_health = 100;
 energy = 100
