@@ -1,4 +1,4 @@
-/// @description Deals with movements
+ /// @description Deals with movements
 // You can write your code in this editor
 if (keyboard_check(vk_left) && place_free(x - collisionSpeed, y))
 {
@@ -57,3 +57,11 @@ if (place_meeting(x , y + walkSpeed[1], obj_bathroomwall)){
 	walkSpeed[1] = 0;
 }
 y += walkSpeed[1]
+
+// if you die
+
+if (local_health <= 0) 
+{
+	room_restart();
+	local_health = global.player_health
+}
