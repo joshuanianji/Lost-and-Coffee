@@ -2,8 +2,11 @@
   "resources": [
     {"id":{"name":"spr_bed","path":"sprites/spr_bed/spr_bed.yy",},"order":12,},
     {"id":{"name":"spr_smallWall","path":"sprites/spr_smallWall/spr_smallWall.yy",},"order":20,},
+    {"id":{"name":"snd_boop","path":"sounds/snd_boop/snd_boop.yy",},"order":4,},
     {"id":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"order":1,},
     {"id":{"name":"obj_door_topdown","path":"objects/obj_door_topdown/obj_door_topdown.yy",},"order":11,},
+    {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},"order":3,},
+    {"id":{"name":"snd_damage","path":"sounds/snd_damage/snd_damage.yy",},"order":2,},
     {"id":{"name":"spr_idea","path":"sprites/spr_idea/spr_idea.yy",},"order":0,},
     {"id":{"name":"obj_robot2","path":"objects/obj_robot2/obj_robot2.yy",},"order":9,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
