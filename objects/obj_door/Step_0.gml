@@ -14,15 +14,27 @@ if inst != noone {
 	
 	if bathroom.x <= obj_player_sideview.x and obj_player_sideview.x <= (bathroom.x + bathroom.sprite_width) or bathroom.x <= width and width <= (bathroom.x + bathroom.sprite_width){
 		global.text = "bathroom"
+		if keyboard_check(vk_space){
+			room_goto(bathroom_lv1)
+		}
 	} 
 	if kitchen.x <= obj_player_sideview.x  and obj_player_sideview.x <= (kitchen.x + kitchen.sprite_width) or kitchen.x <= width and width <= (kitchen.x + kitchen.sprite_width){
 		global.text = "kitchen" 
+		if keyboard_check(vk_space){
+			room_goto(kitchen_lv1)
+		}
 	} 
 	if storage.x <= obj_player_sideview.x and obj_player_sideview.x <= (storage.x + storage.sprite_width) or storage.x <= width and width <= (storage.x + storage.sprite_width){
 		global.text = "storage room"
+		if keyboard_check(vk_space){
+			room_goto(storage_lv1)
+		}
 	}
 	if tutorial.x <= obj_player_sideview.x and obj_player_sideview.x <= (tutorial.x + tutorial.sprite_width) or tutorial.x <= width and width <= (tutorial.x + bathroom.sprite_width){
 		global.text = "tutorial"
+		if keyboard_check(vk_space){
+			room_goto(tutorial_room)
+		}
 	}
 } else {
 	play_sound_effect = true;
