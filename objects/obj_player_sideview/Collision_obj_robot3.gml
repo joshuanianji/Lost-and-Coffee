@@ -18,7 +18,7 @@ else
 	local_health -= 2;
 	show_debug_message(local_health);
 	
-	color = c_red
+	image_alpha = 0.5;
 	alarm[0] = room_speed * 0.2;
 }
 	

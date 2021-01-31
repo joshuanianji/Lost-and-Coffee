@@ -11,7 +11,6 @@ grounded = true;
 
 // enemy stuff
 enemyBounce = 35
-color = c_white
 
 // This is really bad coding style LMAO
 if variable_global_exists("global.player_health") {
