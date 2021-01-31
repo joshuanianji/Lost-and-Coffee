@@ -27,6 +27,7 @@ if ((!rkey && !lkey) || (rkey && lkey)) {
 // jumping
 if (jkey && grounded) {
 	vspd = -jspd; // negative goes up
+	audio_play_sound(snd_jump,0,0)
 }
 
 // in air, move down with gravity
