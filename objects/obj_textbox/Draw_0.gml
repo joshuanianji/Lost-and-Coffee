@@ -35,7 +35,45 @@ if global.text = "storage_died"{
 	show_debug_message(view_wport[0])
 	draw_text(view_midx, room_height - boxHeight,"You died! Hint: Try to get better at the game.")
 }
+if global.text = "tutorial_intro"{
+	show_debug_message(view_midx)
+	draw_text(view_midx, cam_height - boxHeight,"Click on player to get started")
+}
 if global.text = "player"{
 	show_debug_message(view_midx)
-	draw_text(view_midx, cam_height - boxHeight,"player thing")
+	switch (global.player_text_count) 
+		{
+			case 0:
+				draw_text(view_midx, cam_height - boxHeight,"(Click on player to get started...)")
+				break;
+			case 1:
+				draw_text(view_midx, cam_height - boxHeight,"This is you. Sleep deprived you...")
+				break;
+			case 2:
+				draw_text(view_midx, cam_height - boxHeight,"'Oh boy, I'm so tired from doing Compsci labs all night...'")
+				break;
+			case 3:
+				draw_text(view_midx, cam_height - boxHeight,"'OH NO! THE GAME IS TODAY! I FORGOT!...'")
+				break;
+			case 4:
+				draw_text(view_midx, cam_height - boxHeight,"'I had an idea, but I lost it!...'")
+				break;
+			case 5:
+				draw_text(view_midx, cam_height - boxHeight,"'Oh wait, isn't one of my idea fragments on the top right corner?...'")
+				break;
+			case 6:
+				draw_text(view_midx, cam_height - boxHeight,"'I must have more in the other rooms in my house!...'")
+				break;
+			case 7:
+				draw_text(view_midx, cam_height - boxHeight,"'There's also some red bull, I should drink it...'")
+				break;
+			case 8:
+				draw_text(view_midx, cam_height - boxHeight,"Collect the fragments to win!")
+				break;
+		}
+	
+}
+if global.text = "bed"{
+	show_debug_message(view_midx)
+	draw_text(view_midx, cam_height - boxHeight,"This is your bed. Messy and unmade, like you.")
 }
