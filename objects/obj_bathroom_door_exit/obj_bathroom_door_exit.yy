@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_chocolate",
-    "path": "sprites/spr_chocolate/spr_chocolate.yy",
+    "name": "spr_door_closed",
+    "path": "sprites/spr_door_closed/spr_door_closed.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"parent":{"name":"obj_chocolate","path":"objects/obj_chocolate/obj_chocolate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_chocolate","path":"objects/obj_chocolate/obj_chocolate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_bathroom_door_exit","path":"objects/obj_bathroom_door_exit/obj_bathroom_door_exit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_bathroom_door_exit","path":"objects/obj_bathroom_door_exit/obj_bathroom_door_exit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_chocolate",
+  "name": "obj_bathroom_door_exit",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -16,6 +16,6 @@ if (place_meeting(x , y + walkSpeed[1], obj_bathroomwall)){
 }
 y += walkSpeed[1]
 
-if keyboard_check(ord("R")) {
+if keyboard_check(ord("R")) && not level_complete {
 	room_restart();
 }
