@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_smallWall",
-    "path": "sprites/spr_smallWall/spr_smallWall.yy",
+    "name": "spr_coffee_cup",
+    "path": "sprites/spr_coffee_cup/spr_coffee_cup.yy",
   },
-  "solid": true,
-  "visible": false,
+  "solid": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_smallWall",
+  "name": "obj_coffee_cup",
   "tags": [],
   "resourceType": "GMObject",
 }

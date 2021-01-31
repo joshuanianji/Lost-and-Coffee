@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a809429f-51f5-4006-8607-d3c78a88bc0b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "bathroom",
+    "path": "folders/Sprites/bathroom.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bathroomwall",
