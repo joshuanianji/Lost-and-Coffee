@@ -8,22 +8,6 @@ var lkey = keyboard_check(vk_left)
 var jkey = keyboard_check(vk_up)
 
 
-// check for ground
-if place_meeting(x, y+1, obj_wall) {
-	vspd = 0
-	
-	// only jump when we're on the ground
-	if (jkey) {
-		vspd = -jspd; // negative goes up
-	}
-} else {
-	// in air, move down with gravity
-	// 10 is the terminal velocity
-	if (vspd < terminal_vel) {
-		vspd += grav;
-	}
-	
-}
 
 // move to right and lext
 if (rkey) {
@@ -39,26 +23,81 @@ if ((!rkey && !lkey) || (rkey && lkey)) {
 	hspd = 0;
 }
 
-// WE PRIORITIZE X MOVEMENT OVER Y MOVEMENT!
 
-// move horizontally and check for collisiosn
-if place_meeting(x+hspd, y, obj_wall) {
-	// sign returns 1 or -1, depending on the sign of the value
-	// this moves us up RIGHT up to the object
-	while (!place_meeting(x+sign(hspd), y, obj_wall)) {
-		x += sign(vspd);
-	}
-	hspd = 0;
+// jumping
+if (jkey && grounded) {
+	vspd = -jspd; // negative goes up
 }
+
+// in air, move down with gravity
+// 10 is the terminal velocity
+if (vspd < terminal_vel) {
+	vspd += grav;
+}
+
+/******/
+// WE PRIORITIZE X MOVEMENT OVER Y MOVEMENT!
+// code gotten from: https://youtu.be/mm_NdkQwx_o
+// Game Maker studio: Jump through platforms
+/******/
+
+// move horizontally and check for collision
+var hcollide;
+hcollide = instance_place(x+hspd, y, obj_wall);
+if (hcollide != noone){
+	// regular wall - can't jump through
+	if (hcollide).type == 1 {
+		// how much we move the y coordinate to exit the block
+		yplus = 0
+		while (place_meeting(x+hspd, y-yplus, obj_wall) && yplus <= abs(1*hspd)) yplus += 1;
+		if place_meeting(x+hspd, y-yplus, obj_wall)
+		{
+			while(!place_meeting(x+sign(hspd), y, obj_wall)) x+=sign(hspd);
+			hspd = 0;
+		}
+		else 
+		{
+			y -= yplus
+		}
+	}
+}
+
 x += hspd;
 
+
 // move vertically & vertical collisions
-if place_meeting(x, y+vspd, obj_wall) {
-	// sign returns 1 or -1, depending on the sign of the value
-	// this moves us up RIGHT up to the object
-	while (!place_meeting(x, y+sign(vspd), obj_wall)) {
-		y += sign(vspd);
+// only check for collisions when you move down
+var vcollide;
+vcollide = instance_place(x, y+vspd, obj_wall);
+if (vcollide != noone){
+	// regular wall - can't jump through
+	if (vcollide).type == 1 
+	{
+		while (!place_meeting(x, y+sign(vspd), obj_wall)) {
+			y += sign(vspd);
+		}
+		vspd = 0;
+		grounded = true;
 	}
-	vspd = 0;
+	// colliding with jump through, and we're moving down
+	if (((vcollide).type == 2) && sign(vspd) == 1) 
+	{
+		if (!place_meeting(x, y, obj_wall))
+		{
+			while(!place_meeting(x, y+sign(vspd), obj_wall)) y += 1;
+			vspd = 0;
+			grounded = true;
+		}
+	}
 }
+else 
+{
+	grounded = false;
+}
+
 y += vspd;
+
+if (local_health <= 0) 
+{
+	room_restart();
+}
