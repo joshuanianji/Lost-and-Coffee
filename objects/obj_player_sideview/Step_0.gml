@@ -11,10 +11,12 @@ var up_prsd = keyboard_check(vk_up) or keyboard_check(ord("W"));
 // move to right and lext
 if (right_prsd) {
 	hspd = spd;
+	image_xscale = 1
 }
 
 if (left_prsd) {
 	hspd = -spd;
+	image_xscale = -1
 }
 
 // stop moving

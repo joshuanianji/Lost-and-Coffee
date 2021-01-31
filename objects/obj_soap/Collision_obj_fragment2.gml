@@ -5,3 +5,4 @@ instance_destroy(other)
 show_debug_message(global.fragment)
 level_complete = true;
 audio_play_sound(snd_boop,0,0)
+global.win += 1

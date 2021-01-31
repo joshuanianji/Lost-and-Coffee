@@ -69,7 +69,7 @@ if room == tutorial_room {
 	
 	}
 	if global.text = "bed"{
-		draw_text(view_midx, cam_height - boxHeight,"This is your bed. Messy and unmade, like you.")
+		draw_text(view_midx, cam_height - boxHeight,"This is your bed. Messy and unmade, like your game.")
 	}
 }
 if room == level_select {
@@ -81,5 +81,4 @@ if room == level_select {
 	} else {
 		
 		show_debug_message("fragments not collected " + string(global.fragment));
-	}
 }
