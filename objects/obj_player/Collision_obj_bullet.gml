@@ -9,7 +9,7 @@ show_debug_message(local_health);
 
 
 image_alpha = 0.5;
-alarm[0] = room_speed * 0.2;
+alarm[1] = room_speed * 0.2;
 
 // destroy bullet
 instance_destroy(other);
