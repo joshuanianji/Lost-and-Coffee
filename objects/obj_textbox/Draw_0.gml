@@ -1,35 +1,36 @@
- /// @description Insert description here
+/// @description Insert description here
 // You can write your code in this editor
-
-// CODE DOESN'T WORK
-if global.text = "player"{
-	text = "This is you. A sleep deprived university student."
-}
-if global.text = "bed"{
-	text = "This is your bed. It's messy and unmade. Just like your current project."
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+draw_set_color(c_white);
+var center_viewport_x = view_xport[0] + round(view_wport[0] / 2);
+var bottom_viewport_y = view_yport[0] + view_hport[0] - boxHeight;
+if global.text = "exit"{
+	show_debug_message(global.text)
+	draw_text(room_width/2, room_height - boxHeight, "Press space to exit")
 }
 if global.text = "bathroom"{
-	text = "The bathroom -sdfsdfsdfsdfsdf"
-}
-if global.text = "kitchen"{
-	text = "The kitchen - pdsdfsdfsfsdfr"
-}
-if global.text = "storage room"{
-	text = "The storage room -sdfdfgsdfgsdfgsdfgr"
+	show_debug_message(global.text)
+	draw_text(room_width/2, room_height - boxWidth,"The bathroom - press space to enter")
 }
 if global.text = "tutorial"{
-	text = "Your room - pdsfasdasfr" 
+	show_debug_message(global.text)
+	draw_text(room_width/2, room_height - boxWidth,"Your room - press space to enter")
 }
-if global.text = "exit" {
-	text= "Exit to level select"
+if global.text = "kitchen"{
+	show_debug_message(global.text)
+	draw_text(room_width/2, room_height - boxWidth,"The kitchen - press space to enter")
+}
+if global.text = "storage room"{
+	show_debug_message(global.text)
+	draw_text(room_width/2, room_height - boxWidth,"The storage room - press space to enter")
 }
 
-stringHeight = string_height(text)
-// draw textbox
-draw_sprite(spr_textbox, 0, x, y)
-
-// draw text
-draw_set_font(story_font)
-draw_set_alpha(0.8)
-
-draw_text_ext(x, y, text, stringHeight, boxWidth)
+if global.text = "storage_intro"{
+	show_debug_message(global.text)
+	draw_text(room_width/2, room_height - boxHeight, "Get to the puzzle at the top. Avoid or kill the monsters!")
+}
+if global.text = "storage_died"{
+	show_debug_message(global.text)
+	draw_text(room_width/2, room_height - boxHeight,"You died! Hint: Try to get better at the game.")
+}

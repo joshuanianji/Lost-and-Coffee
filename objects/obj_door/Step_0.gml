@@ -23,27 +23,15 @@ if inst != noone {
 	
 	if over_bathroom {
 		global.text = "bathroom"
-		if keyboard_check(vk_space){
-			room_goto(bathroom_lv1)
-		}
 	} 
 	if over_kitchen {
 		global.text = "kitchen" 
-		if keyboard_check(vk_space){
-			room_goto(kitchen_lv1)
-		}
 	} 
 	if over_storage {
 		global.text = "storage room"
-		if keyboard_check(vk_space){
-			room_goto(storage_lv1)
-		}
 	}
 	if over_tutorial {
 		global.text = "tutorial"
-		if keyboard_check(vk_space){
-			room_goto(tutorial_room)
-		}
 	}
 } else {
 	play_sound_effect = true;
@@ -55,17 +43,21 @@ if spacekey {
 	if over_bathroom {
 		show_debug_message("go to bathroom");
 		room_goto(bathroom_lv1);
+		global.text = "";
 	} 
 	if over_kitchen {
 		show_debug_message("go to kitchen");
 		room_goto(kitchen_lv1);
+		global.text = "";
 	} 
 	if over_storage {
 		show_debug_message("go to storage");
 		room_goto(storage_lv1);
+		global.text = "";
 	}
 	if over_tutorial {
 		show_debug_message("go to tutorial");
 		room_goto(tutorial_room);
+		global.text = "";
 	}
 }

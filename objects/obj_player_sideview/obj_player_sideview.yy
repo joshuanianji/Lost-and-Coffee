@@ -34,6 +34,8 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_robot2","path":"objects/obj_robot2/obj_robot2.yy",},"parent":{"name":"obj_player_sideview","path":"objects/obj_player_sideview/obj_player_sideview.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_robot3","path":"objects/obj_robot3/obj_robot3.yy",},"parent":{"name":"obj_player_sideview","path":"objects/obj_player_sideview/obj_player_sideview.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_candy","path":"objects/obj_candy/obj_candy.yy",},"parent":{"name":"obj_player_sideview","path":"objects/obj_player_sideview/obj_player_sideview.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_player_sideview","path":"objects/obj_player_sideview/obj_player_sideview.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_player_sideview","path":"objects/obj_player_sideview/obj_player_sideview.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
