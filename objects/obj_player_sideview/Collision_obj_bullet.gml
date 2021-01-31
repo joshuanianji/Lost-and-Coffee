@@ -6,7 +6,8 @@ var move_dir = point_direction(x, y, other.x, other.y);
 
 x -= round(lengthdir_x(20, move_dir));
 y -= round(lengthdir_y(20, move_dir));
-show_debug_message(point_direction(x, y, other.x, other.y));
+local_health -= 2;
+show_debug_message(local_health);
 
 
 image_alpha = 0.5;

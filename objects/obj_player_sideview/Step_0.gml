@@ -96,3 +96,8 @@ else
 }
 
 y += vspd;
+
+if (local_health <= 0) 
+{
+	room_restart();
+}
