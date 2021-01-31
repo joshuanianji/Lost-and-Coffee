@@ -3,3 +3,4 @@
 if global.fragment[2] != 0 {
 	instance_destroy(self)
 }
+visible = false

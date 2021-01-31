@@ -13,3 +13,5 @@ global.text = 0
 color = c_white
 // the storage can know whether to say you died or the welcome msg
 global.visited_storage = 0
+global.monsters = 0 // The number of monsters in the room
+shoot = 1 // If the player can shoot a bullet
