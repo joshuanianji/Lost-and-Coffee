@@ -81,4 +81,4 @@ if room == level_select {
 	} else {
 		
 		show_debug_message("fragments not collected " + string(global.fragment));
-}
+}}
