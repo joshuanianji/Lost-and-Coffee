@@ -1,41 +1,52 @@
  /// @description Deals with movements
 // You can write your code in this editor
-if (keyboard_check(vk_left) && place_free(x - collisionSpeed, y))
+
+var left_prsd = keyboard_check(vk_left) or keyboard_check(ord("A"));
+var right_prsd = keyboard_check(vk_right) or keyboard_check(ord("D"));
+var up_prsd = keyboard_check(vk_up) or keyboard_check(ord("W"));
+var down_prsd = keyboard_check(vk_down) or keyboard_check(ord("S"));
+
+var left_up = keyboard_check_released(vk_left) or keyboard_check_released(ord("A"));
+var right_up = keyboard_check_released(vk_right) or keyboard_check_released(ord("D"));
+var up_up = keyboard_check_released(vk_up) or keyboard_check_released(ord("W"));
+var down_up = keyboard_check_released(vk_down) or keyboard_check_released(ord("S"));
+
+if (left_prsd and place_free(x - collisionSpeed, y))
 {
    walkSpeed[0] = -3.5;
 }
 
-if keyboard_check(vk_right) && place_free(x + collisionSpeed, y)
+if right_prsd and place_free(x + collisionSpeed, y)
 {
    walkSpeed[0] = 3.5;
 }
 
-if keyboard_check(vk_left) && keyboard_check(vk_right)
+if left_prsd and right_prsd
 {	
 	walkSpeed[0] = 0	
 }
 
-if (keyboard_check(vk_up) && place_free(x, y - collisionSpeed))
+if up_prsd and place_free(x, y - collisionSpeed)
 {
    walkSpeed[1] = -3.5;
 }
 
-if (keyboard_check(vk_down) && place_free(x, y + collisionSpeed))
+if down_prsd and place_free(x, y + collisionSpeed)
 {
    walkSpeed[1] = 3.5;
 }
 
-if keyboard_check(vk_up) && keyboard_check(vk_down) 
+if up_prsd and down_prsd
 {	
 	walkSpeed[1] = 0	
 }
 
-if keyboard_check_released(vk_left) or keyboard_check_released(vk_right) 
+if left_up or right_up
 {
 	walkSpeed[0] = 0	
 }
 
-if keyboard_check_released(vk_up) or keyboard_check_released(vk_down) 
+if up_up or down_up
 {
 	walkSpeed[1] = 0	
 }
