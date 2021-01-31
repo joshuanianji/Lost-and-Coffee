@@ -47,7 +47,6 @@
     {"id":{"name":"spr_bathroom","path":"sprites/spr_bathroom/spr_bathroom.yy",},"order":20,},
     {"id":{"name":"obj_fragment3","path":"objects/obj_fragment3/obj_fragment3.yy",},"order":15,},
     {"id":{"name":"obj_door_exit","path":"objects/obj_door_exit/obj_door_exit.yy",},"order":17,},
-    {"id":{"name":"obj_bathroom_win","path":"objects/obj_bathroom_win/obj_bathroom_win.yy",},"order":12,},
     {"id":{"name":"spr_redcow","path":"sprites/spr_redcow/spr_redcow.yy",},"order":14,},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":5,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":20,},
@@ -89,6 +88,9 @@
     {"roomId":{"name":"level_select","path":"rooms/level_select/level_select.yy",},},
     {"roomId":{"name":"storage_lv1","path":"rooms/storage_lv1/storage_lv1.yy",},},
     {"roomId":{"name":"kitchen_lv1","path":"rooms/kitchen_lv1/kitchen_lv1.yy",},},
+    {"roomId":{"name":"bathroom_lv1","path":"rooms/bathroom_lv1/bathroom_lv1.yy",},},
+    {"roomId":{"name":"kitchen_lv1","path":"rooms/kitchen_lv1/kitchen_lv1.yy",},},
+    {"roomId":{"name":"storage_lv1","path":"rooms/storage_lv1/storage_lv1.yy",},},
     {"roomId":{"name":"bathroom_lv1","path":"rooms/bathroom_lv1/bathroom_lv1.yy",},},
   ],
   "Folders": [
