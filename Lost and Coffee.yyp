@@ -64,6 +64,8 @@
     {"id":{"name":"obj_robot1","path":"objects/obj_robot1/obj_robot1.yy",},"order":7,},
     {"id":{"name":"spr_idea_frag3","path":"sprites/spr_idea_frag3/spr_idea_frag3.yy",},"order":10,},
     {"id":{"name":"tutorial_room","path":"rooms/tutorial_room/tutorial_room.yy",},"order":0,},
+    {"id":{"name":"storage_lv1","path":"rooms/storage_lv1/storage_lv1.yy",},"order":4,},
+    {"id":{"name":"bathroom_lv1","path":"rooms/bathroom_lv1/bathroom_lv1.yy",},"order":3,},
   ],
   "Options": [
     {"name":"macOS","path":"options/mac/options_mac.yy",},
@@ -78,11 +80,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"","path":"",},},
-    {"roomId":{"name":"level_select","path":"rooms/level_select/level_select.yy",},},
     {"roomId":{"name":"tutorial_room","path":"rooms/tutorial_room/tutorial_room.yy",},},
+    {"roomId":{"name":"level_select","path":"rooms/level_select/level_select.yy",},},
     {"roomId":{"name":"kitchen_lv1","path":"rooms/kitchen_lv1/kitchen_lv1.yy",},},
-    {"roomId":{"name":"","path":"",},},
+    {"roomId":{"name":"storage_lv1","path":"rooms/storage_lv1/storage_lv1.yy",},},
+    {"roomId":{"name":"bathroom_lv1","path":"rooms/bathroom_lv1/bathroom_lv1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

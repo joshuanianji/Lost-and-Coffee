@@ -140,15 +140,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-<<<<<<< HEAD
-<<<<<<< HEAD:rooms/bathroom_lv1/bathroom_lv1.yy
   "name": "bathroom_lv1",
-=======
-  "name": "storage_lv1",
->>>>>>> origin/main:rooms/storage_lv1/storage_lv1.yy
-=======
-  "name": "bathroom_lv1",
->>>>>>> origin/main
   "tags": [],
   "resourceType": "GMRoom",
 }
