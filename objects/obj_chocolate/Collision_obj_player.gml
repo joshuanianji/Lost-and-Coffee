@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-play_sound_effect = true;
-click = -1
-box = 0
+instance_destroy(self);
+global.player_health += 10;

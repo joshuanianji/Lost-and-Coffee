@@ -100,4 +100,5 @@ y += vspd;
 if (local_health <= 0) 
 {
 	room_restart();
+	global.text = "You died! Try again.";
 }

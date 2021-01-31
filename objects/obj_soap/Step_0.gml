@@ -15,3 +15,7 @@ if (place_meeting(x , y + walkSpeed[1], obj_bathroomwall)){
 	walkSpeed[1] = 0;
 }
 y += walkSpeed[1]
+
+if keyboard_check(ord("R")) {
+	room_restart();
+}
