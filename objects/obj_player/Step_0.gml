@@ -5,7 +5,7 @@ if (keyboard_check(vk_left) && place_free(x - collisionSpeed, y))
    x -= walkSpeed;
 }
 
-if (keyboard_check(vk_right) && place_free(x + collisionSpeed, y))
+if keyboard_check(vk_right) && place_free(x + collisionSpeed, y)
 {
    x += walkSpeed;
 }
