@@ -87,9 +87,6 @@
     {"roomId":{"name":"storage_lv1","path":"rooms/storage_lv1/storage_lv1.yy",},},
     {"roomId":{"name":"kitchen_lv1","path":"rooms/kitchen_lv1/kitchen_lv1.yy",},},
     {"roomId":{"name":"bathroom_lv1","path":"rooms/bathroom_lv1/bathroom_lv1.yy",},},
-    {"roomId":{"name":"kitchen_lv1","path":"rooms/kitchen_lv1/kitchen_lv1.yy",},},
-    {"roomId":{"name":"storage_lv1","path":"rooms/storage_lv1/storage_lv1.yy",},},
-    {"roomId":{"name":"bathroom_lv1","path":"rooms/bathroom_lv1/bathroom_lv1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
