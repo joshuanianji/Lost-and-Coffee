@@ -10,6 +10,7 @@ global.player_health = 100;
 local_health = global.player_health
 energy = 100
 global.text = 0
+color = c_white
 global.fragment = 0
 // the storage can know whether to say you died or the welcome msg
 global.visited_storage = 0
