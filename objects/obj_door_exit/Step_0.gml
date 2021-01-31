@@ -18,9 +18,14 @@ if inst != noone {
 	play_sound_effect = false;
 	sprite_index = spr_door_open;
 	
-	if hovering {
-		global.text = "exit"
-	}
+
+	show_debug_message("hovering");
+	
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_set_color(c_white);
+	draw_text(room_width/2, room_height - sprite_get_height(spr_textbox),"Press space to exit back to the room select");
+
 
 } else {
 	play_sound_effect = true;
