@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-with(other){
-		room_goto(level_select)
-	}
+alarm[0] = room_speed * 0.5;
+show_debug_message(room_speed)
