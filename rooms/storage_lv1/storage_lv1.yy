@@ -3,11 +3,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-<<<<<<< HEAD
     {"inherit":false,"visible":true,"xview":0,"yview":1200,"wview":700,"hview":768,"xport":0,"yport":0,"wport":700,"hport":768,"hborder":128,"vborder":128,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_player_sideview","path":"objects/obj_player_sideview/obj_player_sideview.yy",},},
-=======
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
->>>>>>> origin/main
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -17,7 +13,6 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-<<<<<<< HEAD
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player_sideview","path":"objects/obj_player_sideview/obj_player_sideview.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":1856.0,"resourceVersion":"1.0","name":"inst_47BD066D","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"main","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -451,15 +446,11 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 ],},"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"bg_tiles","tags":[],"resourceType":"GMRTileLayer",},
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
-=======
     {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
->>>>>>> origin/main
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
   "inheritCode": false,
-<<<<<<< HEAD
   "instanceCreationOrder": [
     {"name":"inst_47BD066D","path":"rooms/storage_lv1/storage_lv1.yy",},
     {"name":"inst_115A49D9","path":"rooms/storage_lv1/storage_lv1.yy",},
@@ -634,29 +625,17 @@
     {"name":"inst_5F625DEB","path":"rooms/storage_lv1/storage_lv1.yy",},
     {"name":"inst_7D15F3FA","path":"rooms/storage_lv1/storage_lv1.yy",},
   ],
-=======
-  "instanceCreationOrder": [],
->>>>>>> origin/main
   "inheritCreationOrder": false,
   "sequenceId": null,
   "roomSettings": {
     "inheritRoomSettings": false,
-<<<<<<< HEAD
     "Width": 700,
     "Height": 2000,
-=======
-    "Width": 1366,
-    "Height": 768,
->>>>>>> origin/main
     "persistent": false,
   },
   "viewSettings": {
     "inheritViewSettings": false,
-<<<<<<< HEAD
-    "enableViews": true,
-=======
     "enableViews": false,
->>>>>>> origin/main
     "clearViewBackground": false,
     "clearDisplayBuffer": true,
   },
