@@ -34,3 +34,13 @@ if global.text = "storage_died"{
 	show_debug_message(global.text)
 	draw_text(room_width/2, room_height - boxHeight,"You died! Hint: Try to get better at the game.")
 }
+
+if global.text = "bed"{
+	show_debug_message(global.text)
+	draw_text(center_viewport_x, 200,"This is your bed, messy and unmade. Just like your game.")
+}
+
+if global.text = "player"{
+	show_debug_message(global.text)
+	draw_text(center_viewport_x, 200,"This is you. Sleep deprived you.")
+}

@@ -12,10 +12,12 @@ var jkey = keyboard_check(vk_up)
 // move to right and lext
 if (rkey) {
 	hspd = spd;
+	image_xscale = 1
 }
 
 if (lkey) {
 	hspd = -spd;
+	image_xscale = -1
 }
 
 // stop moving
