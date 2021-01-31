@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_robot3",
-    "path": "sprites/spr_robot3/spr_robot3.yy",
+    "name": "spr_wall_small",
+    "path": "sprites/spr_wall_small/spr_wall_small.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_wall",
+    "path": "objects/obj_wall/obj_wall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,8 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_robot3","path":"objects/obj_robot3/obj_robot3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_robot3","path":"objects/obj_robot3/obj_robot3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_wall_jumpthrough","path":"objects/obj_wall_jumpthrough/obj_wall_jumpthrough.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_robot3",
+  "name": "obj_wall_jumpthrough",
   "tags": [],
   "resourceType": "GMObject",
 }
