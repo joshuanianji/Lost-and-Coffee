@@ -15,3 +15,4 @@ color = c_white
 global.visited_storage = 0
 global.monsters = 0 // The number of monsters in the room
 shoot = 1 // If the player can shoot a bullet
+coffee = 0

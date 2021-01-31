@@ -11,5 +11,3 @@ function clicked(box, click, x, y){
 	}
 }
 
-global.fragment = [0,0,0,0]
-
