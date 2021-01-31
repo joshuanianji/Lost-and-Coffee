@@ -3,3 +3,4 @@
 global.fragment += 1
 instance_destroy(other)
 show_debug_message(global.fragment)
+level_complete = true;
