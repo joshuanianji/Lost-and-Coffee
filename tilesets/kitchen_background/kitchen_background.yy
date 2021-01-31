@@ -76,7 +76,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TileSet2",
+  "name": "kitchen_background",
   "tags": [],
   "resourceType": "GMTileSet",
 }
