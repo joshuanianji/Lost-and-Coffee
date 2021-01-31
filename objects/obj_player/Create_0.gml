@@ -8,3 +8,6 @@ collisionSpeed = walkSpeed + 2
 
 global.dialogue = 1
 global.player_health = 100;
+energy = 100
+global.text = 0
+global.fragment = 0
