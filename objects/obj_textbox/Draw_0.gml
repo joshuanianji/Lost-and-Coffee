@@ -1,6 +1,5 @@
  /// @description Insert description here
 // You can write your code in this editor
-show_debug_message(text)
 if global.text = "player"{
 text = "This is you. A sleep deprived university student."
 }
