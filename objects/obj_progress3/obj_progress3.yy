@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_idea_frag2",
-    "path": "sprites/spr_idea_frag2/spr_idea_frag2.yy",
+    "name": "spr_progress3",
+    "path": "sprites/spr_progress3/spr_progress3.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,7 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_fragment2","path":"objects/obj_fragment2/obj_fragment2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_progress3","path":"objects/obj_progress3/obj_progress3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_progress3","path":"objects/obj_progress3/obj_progress3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fragment2",
+  "name": "obj_progress3",
   "tags": [],
   "resourceType": "GMObject",
 }
