@@ -21,30 +21,11 @@ if inst != noone {
 	play_sound_effect = false;
 	sprite_index = spr_door_open;
 	
-	if over_bathroom {
-		global.text = "bathroom"
-		if keyboard_check(vk_space){
-			room_goto(bathroom_lv1)
-		}
-	} 
-	if over_kitchen {
-		global.text = "kitchen" 
-		if keyboard_check(vk_space){
-			room_goto(kitchen_lv1)
-		}
-	} 
-	if over_storage {
-		global.text = "storage room"
-		if keyboard_check(vk_space){
-			room_goto(storage_lv1)
-		}
-	}
-	if over_tutorial {
-		global.text = "tutorial"
-		if keyboard_check(vk_space){
-			room_goto(tutorial_room)
-		}
-	}
+	if over_bathroom global.text = "bathroom";
+	if over_kitchen global.text = "kitchen" ; 
+	if over_storage global.text = "storage room";
+	if over_tutorial global.text = "tutorial";
+	
 } else {
 	play_sound_effect = true;
 	sprite_index = spr_door_closed;
