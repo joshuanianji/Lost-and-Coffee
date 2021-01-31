@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"52cdc88c-a2a6-4b01-b182-0b0aa4f0037c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "storage",
+    "path": "folders/Sprites/storage.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_robot2",

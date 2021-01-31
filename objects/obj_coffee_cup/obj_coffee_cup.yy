@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_idea_frag3",
-    "path": "sprites/spr_idea_frag3/spr_idea_frag3.yy",
+    "name": "spr_coffee_cup",
+    "path": "sprites/spr_coffee_cup/spr_coffee_cup.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_fragment3","path":"objects/obj_fragment3/obj_fragment3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_fragment3","path":"objects/obj_fragment3/obj_fragment3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fragment3",
+  "name": "obj_coffee_cup",
   "tags": [],
   "resourceType": "GMObject",
 }

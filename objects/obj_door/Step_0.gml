@@ -47,8 +47,10 @@ if spacekey {
 	} 
 	if over_kitchen {
 		show_debug_message("go to kitchen");
+		global.enter_kitchen = 1
 		room_goto(kitchen_lv1);
 		global.text = "";
+		
 	} 
 	if over_storage {
 		show_debug_message("go to storage");

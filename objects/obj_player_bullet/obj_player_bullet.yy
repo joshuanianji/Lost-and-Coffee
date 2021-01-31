@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_idea_frag3",
-    "path": "sprites/spr_idea_frag3/spr_idea_frag3.yy",
+    "name": "spr_player_bullet",
+    "path": "sprites/spr_player_bullet/spr_player_bullet.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_fragment3","path":"objects/obj_fragment3/obj_fragment3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_fragment3","path":"objects/obj_fragment3/obj_fragment3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_smallWall","path":"objects/obj_smallWall/obj_smallWall.yy",},"parent":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fragment3",
+  "name": "obj_player_bullet",
   "tags": [],
   "resourceType": "GMObject",
 }
