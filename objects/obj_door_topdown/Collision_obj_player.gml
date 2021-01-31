@@ -3,6 +3,5 @@
 with(other){
 	audio_play_sound(snd_door_close,0,0)
 	room_goto(level_select)
-	global.enter_room = 0 // left the room
-	room_goto(level_select)
-	}
+	global.enter_room = 0 // left the room\
+}

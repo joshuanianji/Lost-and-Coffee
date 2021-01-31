@@ -9,7 +9,18 @@ collisionSpeed = 5.5
 global.player_health = 100;
 local_health = global.player_health
 energy = 100
-global.text = 0
+if (room == tutorial_room) 
+{
+	show_debug_message("tutorial room - start off")
+	global.text = "player";
+	global.player_text_count = 0;
+}
+else 
+{
+	show_debug_message("not tutorial room")
+	global.text = "";
+	global.player_text_count = 9
+}
 color = c_white
 // the storage can know whether to say you died or the welcome msg
 global.visited_storage = 0

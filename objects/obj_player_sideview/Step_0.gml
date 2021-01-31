@@ -104,5 +104,3 @@ if (local_health <= 0)
 	room_restart();
 	global.text = "You died! Try again.";
 }
-
-show_debug_message(global.fragment)
