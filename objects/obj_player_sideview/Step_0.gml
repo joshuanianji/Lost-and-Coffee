@@ -3,29 +3,28 @@
 
 /// @description Deals with movements
 // You can write your code in this editor
-var rkey = keyboard_check(vk_right)
-var lkey = keyboard_check(vk_left)
-var jkey = keyboard_check(vk_up)
-
+var left_prsd = keyboard_check(vk_left) or keyboard_check(ord("A"));
+var right_prsd = keyboard_check(vk_right) or keyboard_check(ord("D"));
+var up_prsd = keyboard_check(vk_up) or keyboard_check(ord("W"));
 
 
 // move to right and lext
-if (rkey) {
+if (right_prsd) {
 	hspd = spd;
 }
 
-if (lkey) {
+if (left_prsd) {
 	hspd = -spd;
 }
 
 // stop moving
-if ((!rkey && !lkey) || (rkey && lkey)) {
+if ((!right_prsd && !left_prsd) || (right_prsd && left_prsd)) {
 	hspd = 0;
 }
 
 
 // jumping
-if (jkey && grounded) {
+if (up_prsd && grounded) {
 	vspd = -jspd; // negative goes up
 	audio_play_sound(snd_jump,0,0)
 }
