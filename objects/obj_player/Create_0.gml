@@ -7,3 +7,4 @@ walkSpeed = 3.5
 collisionSpeed = walkSpeed + 2
 energy = 100
 global.text = 0
+global.fragment = 0

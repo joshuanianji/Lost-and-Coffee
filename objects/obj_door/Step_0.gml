@@ -6,6 +6,10 @@ width = obj_player_sideview.x + obj_player_sideview.sprite_width
 inst = collision_rectangle(x, y, x+48*image_xscale, y+86*image_yscale, obj_player_sideview, true, true);
 //show_debug_message(width);
 if inst != noone {
+	if play_sound_effect {
+		audio_play_sound(snd_door_close,0,0);
+	}
+	play_sound_effect = false;
 	sprite_index = spr_door_open;
 	
 	if bathroom.x <= obj_player_sideview.x and obj_player_sideview.x <= (bathroom.x + bathroom.sprite_width) or bathroom.x <= width and width <= (bathroom.x + bathroom.sprite_width){
@@ -21,5 +25,6 @@ if inst != noone {
 		global.text = "tutorial"
 	}
 } else {
+	play_sound_effect = true;
 	sprite_index = spr_door_closed;
 }       
