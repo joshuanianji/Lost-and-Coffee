@@ -1,4 +1,4 @@
-/// @description Remove red
+/// @description Remove alpha after health loss
 // You can write your code in this editor
 
-color = c_white
+image_alpha = 1;
