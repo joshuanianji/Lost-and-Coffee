@@ -6,7 +6,7 @@ box = 0
 walkSpeed = [0,0]
 collisionSpeed = 5.5
 
-global.player_health = 100;
+global.player_health = 50;
 local_health = global.player_health
 energy = 100
 if (room == tutorial_room) 

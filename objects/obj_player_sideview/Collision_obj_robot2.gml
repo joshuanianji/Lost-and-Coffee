@@ -23,7 +23,7 @@ else
 
 	hspd = round(lengthdir_x(20, move_dir));
 	show_debug_message(round(lengthdir_x(20, move_dir)));
-	local_health -= 2;
+	local_health -= 20;
 	show_debug_message(local_health);
 	
 	image_alpha = 0.5;
