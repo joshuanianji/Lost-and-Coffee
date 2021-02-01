@@ -94,3 +94,6 @@ if mouse_check_button(mb_left){
 }
 
 
+if global.cow = 1{
+	local_health += 50	
+}

@@ -104,3 +104,7 @@ if (local_health <= 0)
 	room_restart();
 	global.text = "You died! Try again.";
 }
+
+if global.cow = 1{
+	local_health += 50
+}
